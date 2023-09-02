@@ -1,0 +1,47 @@
+.subButton {
+    width: 359px;
+    height: 51px;
+    background-color: #D0F2D1;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    color: #176440;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ranking{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 900;
+    width: 116px;
+    height: 16px;
+    cursor: pointer;
+    border-right: 1px solid #ffffff;
+}
+
+
+.store{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 900;
+    width: 127px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.mission{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 900;
+    width: 116px;
+    height: 16px;
+    cursor: pointer;
+    border-left: 1px solid #ffffff;
+}
