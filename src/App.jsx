@@ -17,6 +17,7 @@ function App() {
           <Route path="/setting" element={<Setting />} />
           <Route path="/qrcamera" element={<QRCamera />} />
           <Route path="/benefit" element={<Benefit />} />
+          <Route path="/qrcamera" element={<QRCamera />} />
         </Routes>
       </AnimatePresence>
     </>
