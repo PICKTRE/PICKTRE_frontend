@@ -1,16 +1,16 @@
 import "./App.css";
-import Footer from "./components/common/Footer";
-import Header from "./components/common/Header";
-import HeaderLayout from "./components/common/HeaderLayout";
-
+import MyPage from "./components/myPage/MyPage";
+import { AnimatePresence } from "framer-motion";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
-
   return (
     <>
-      <Header/>
-      <HeaderLayout title="마이페이지"/>
-      <Footer/>
+      <AnimatePresence>
+        <Routes>
+          <Route path="/mypage" element={<MyPage />} />
+        </Routes>
+      </AnimatePresence>
     </>
   );
 }

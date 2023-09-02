@@ -1,0 +1,181 @@
+.profileSection {
+    width: 331px;
+    height: 88px;
+    background-color: #D0F2D1;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    padding: 12px 16px 12px 12px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileImg {
+    width: 88px;
+    height: 88px;
+    border-radius: 100px;
+    background-color: #e3e3e3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.profile {
+    display: flex;
+    width: 223px;
+    height: 64px;
+    margin-left: 12px;
+}
+
+.profileInfoSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.profileInfo li {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 10px;
+    width: 100px;
+    height: 64px;
+    font-weight: 900;
+    margin-bottom: 4px;
+}
+
+.name {
+    width: 70px;
+    height: 18px;
+    margin-top: 12px;
+    background-color: #e3e3e3;
+}
+.names {
+    width: 70px;
+    height: 18px;
+    margin-top: 12px;
+    color: #29724F;
+    font-weight: 900;
+    font-size: 10px;
+}
+
+.todayReward {
+    width: 24px;
+    height: 12px;
+    background-color: #e3e3e3;
+}
+
+.todayRewards{
+    width: 24px;
+    height: 12px;
+}
+
+.totalReward {
+    width: 24px;
+    height: 11px;
+    background-color: #e3e3e3;
+}
+
+.totalRewardS{
+    width: 24px;
+    height: 11px;
+}
+
+
+.profileTier {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 123px;
+    height: 64px;
+    margin-left: 55px;
+}
+
+.profileTierImg {
+    width: 64px;
+    height: 68px;
+    border-radius: 100px;
+    background-color: #e3e3e3;
+}
+
+.profileTierImgs{
+    width: 64px;
+    height: 68px;
+    border-radius: 100px;
+    background-color: #e3e3e3;
+}
+
+.profileTierContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 108px;
+    height: 10px;
+    background-color: #e3e3e3;
+    font-size: 7px;
+}
+
+.verify {
+    width: 223px;
+    height: 16px;
+    font-size: 7px;
+    border-radius: 7px;
+    border: 0px;
+    margin: 5px 0px 0px 14px;
+    background-color: #E8FAE9;
+}
+
+@keyframes loading {
+    0% {
+        background-color: rgba(165, 165, 165, 0.1);
+    }
+
+    50% {
+        background-color: rgba(165, 165, 165, 0.3);
+    }
+
+    100% {
+        background-color: rgba(165, 165, 165, 0.1);
+    }
+}
+
+.todayReward::before,
+.totalReward::before,
+.name::before,
+.profileImg::before,
+.profileTierImg::before,
+.profileTierContent::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 100%;
+    /* background: linear-gradient(to right, #f2f2f2, #ddd, #f2f2f2); */
+    animation: loading 2s infinite linear;
+}
+
+
+.todayReward,
+.totalReward,
+.name,
+.profileImg,
+.profileTierImg,
+.profileTierContent{
+    overflow: hidden;
+    position: relative;
+    background-color: #ebebeb;
+}

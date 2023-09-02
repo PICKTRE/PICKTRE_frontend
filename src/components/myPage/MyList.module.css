@@ -1,0 +1,98 @@
+.listSection {
+    width: 390px;
+    height: 433px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ACE2B5;
+}
+
+.firstList {
+    margin: 0px 0px 11px 0px;
+    padding: 0;
+    width: 390px;
+    height: 245px;
+    background-color: white;
+    list-style: none;
+}
+
+.firstList li {
+    font-size: 16px;
+    height: 61.25px;
+    width: 345px;
+    padding: 0px 22.5px 0px 22.5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.listTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rank{
+    width: 25.5px;
+    height: 25.5px;
+    margin-right: 22px;
+}
+
+.report{
+    width: 25px;
+    height: 28px;
+    margin-right: 21.5px;
+}
+
+.invite{
+    width: 29px;
+    height: 22px;
+    margin-right: 17.5px;
+}
+
+.guide{
+    width: 29px;
+    height: 22px;
+    margin-right: 17.5px;
+}
+
+.announcement{
+    width: 23px;
+    height: 26px;
+    margin-right: 23.5px;
+}
+
+.service_guide{
+    width:25px;
+    height: 25px;
+    margin-right: 21.5px;
+}
+
+.service_center{
+    width: 25px;
+    height: 22px;
+    margin-right: 21.5px;
+}
+
+
+.secondList {
+    margin: 0;
+    padding: 0;
+    width: 390px;
+    height: 177px;
+    background-color: white;
+    list-style: none;
+}
+
+.secondList li{
+    font-size: 16px;
+    height: 61.25px;
+    width: 345px;
+    padding: 0px 22.5px 0px 22.5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
