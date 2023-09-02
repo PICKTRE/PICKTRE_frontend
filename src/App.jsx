@@ -1,4 +1,5 @@
 import "./App.css";
+import LandingPage from "./components/landingPage/LandingPage";
 import MyPage from "./components/myPage/MyPage";
 import { AnimatePresence } from "framer-motion";
 import { Routes, Route } from "react-router-dom";
@@ -8,6 +9,7 @@ function App() {
     <>
       <AnimatePresence>
         <Routes>
+          <Route path="/" element={<LandingPage />} />
           <Route path="/mypage" element={<MyPage />} />
         </Routes>
       </AnimatePresence>
