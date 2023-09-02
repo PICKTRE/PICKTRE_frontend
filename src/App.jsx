@@ -6,6 +6,7 @@ import Setting from "./components/setting/Setting";
 import QRCamera from "./components/camera/QRcamera";
 import { AnimatePresence } from "framer-motion";
 import { Routes, Route } from "react-router-dom";
+import InviteFriends from "./components/inviteFriends/InviteFriends";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/qrcamera" element={<QRCamera />} />
           <Route path="/benefit" element={<Benefit />} />
           <Route path="/qrcamera" element={<QRCamera />} />
+          <Route path="/invite-friends" element={<InviteFriends />} />
         </Routes>
       </AnimatePresence>
     </>
