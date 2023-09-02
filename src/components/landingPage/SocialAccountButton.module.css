@@ -1,0 +1,35 @@
+.buttonKakao,
+.buttonNaver,
+.buttonFacebook,
+.buttonGoogle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 100%;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.1s linear;
+  cursor: pointer;
+}
+
+.buttonKakao:hover,
+.buttonNaver:hover,
+.buttonFacebook:hover,
+.buttonGoogle:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 4px rgba(0, 0, 0, 0.2);
+}
+
+.kakaoLogo {
+  width: 40px;
+  height: auto;
+}
+
+.naverLogo {
+  color: #58b238;
+}
+
+.facebookLogo {
+  color: #307aed;
+}
