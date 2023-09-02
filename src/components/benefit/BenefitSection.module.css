@@ -1,0 +1,88 @@
+.container{
+    margin-top: 11px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 21px;
+}
+
+.item{
+    width:162px;
+    height: 172px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemImg1{
+    width: 100px;
+    height: 98px;
+    margin-top: 17px;
+}
+
+.explain1 h3{
+    margin-top: 17px;
+    margin-bottom: 3px;
+    font-size: 11px;
+}
+
+.explain1 p{
+   margin-bottom: 17px;
+    font-size: 10px;
+    color: #828282;
+}
+
+.itemImg2{
+    margin-top: 27px;
+    width: 100px;
+    height: 90px;
+}
+
+.explain2 h3{
+    margin-top: 25px;
+    margin-bottom: 3px;
+    font-size: 11px;
+}
+
+.explain2 p{
+   margin-bottom: 17px;
+    font-size: 10px;
+    color: #828282;
+}
+
+.itemImg3{
+    margin-top: 25px;
+    width: 100px;
+    height: 91px;
+}
+
+.explain3 h3{
+    margin-top: 17px;
+    margin-bottom: 3px;
+    font-size: 11px;
+}
+
+.explain3 p{
+   margin-bottom: 17px;
+    font-size: 10px;
+    color: #828282;
+}
+
+.itemImg4{
+    margin-top: 25px;
+    width: 100px;
+    height: 92px;
+}
+.explain4 h3{
+    margin-top: 17px;
+    margin-bottom: 3px;
+    font-size: 11px;
+}
+
+.explain4 p{
+   margin-bottom: 16px;
+    font-size: 10px;
+    color: #828282;
+}
