@@ -1,4 +1,5 @@
 import "./App.css";
+import Benefit from "./components/benefit/Benefit";
 import LandingPage from "./components/landingPage/LandingPage";
 import MyPage from "./components/myPage/MyPage";
 import Setting from "./components/setting/Setting";
@@ -15,6 +16,7 @@ function App() {
           <Route path="/mypage" element={<MyPage />} />
           <Route path="/setting" element={<Setting />} />
           <Route path="/qrcamera" element={<QRCamera />} />
+          <Route path="/benefit" element={<Benefit />} />
         </Routes>
       </AnimatePresence>
     </>
