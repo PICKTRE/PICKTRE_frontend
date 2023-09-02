@@ -19,7 +19,7 @@ const contentVariants = {
 const MyPage = () => {
   return (
     <div>
-      <HeaderLayout title="마이페이지"/>
+      <HeaderLayout title="My Page"/>
       <motion.main
         className={classes.main}
         variants={contentVariants}
