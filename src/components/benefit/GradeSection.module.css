@@ -1,0 +1,118 @@
+.TierSection {
+    width: 370px;
+    height: 104px;
+    border-radius: 18px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    margin-top: 23px;
+    position: relative;
+  }
+  
+  .clickedImage1{
+      width: 75px;
+      height: 127px;
+      position : absolute;
+      top: 50%;
+      transform: translateY(-41%);
+  }
+  .clickedImage2{
+      width: 75px;
+      height: 127px;
+      position : absolute;
+      top: 50%;
+      transform: translateY(-41%);
+  }
+  .clickedImage3{
+      width: 75px;
+      height: 127px;
+      position : absolute;
+      top: 50%;
+      transform: translateY(-41%);
+  }
+  .clickedImage4{
+      width: 75px;
+      height: 127px;
+      position : absolute;
+      top: 50%;
+      transform: translateY(-41%);
+  }
+  .clickedImage5{
+      width: 75px;
+      height: 127px;
+      position : absolute;
+      top: 50%;
+      transform: translateY(-41%);
+  }
+  
+  .Tier {
+    list-style: none;
+    width: 370px;
+    height: 72px;
+    display: flex;
+    padding: 0;
+  }
+  
+  .tierImg {
+    width: 52px;
+    height: 53px;
+  }
+  
+  .TierList {
+    width: 74px;
+    height: 72px;
+    border-right: 1px solid #dddddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .TierList p {
+    color: #00562f;
+    font-size: 9px;
+    font-weight: 900;
+    margin-bottom: 0px;
+  }
+  
+  .TierLists {
+    width: 74px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .TierLists p {
+    color: #00562f;
+    font-size: 9px;
+    font-weight: 900;
+    margin-bottom: 0px;
+  }
+  
+  .explainSection {
+    width: 370px;
+    height: 49.5px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .explainSection h3 {
+    font-size: 13px;
+    font-weight: 900;
+    color: #008163;
+    margin: 0px;
+  }
+  
+  .explainSection p {
+    font-size: 10px;
+    color: #686868;
+    margin: 0px;
+    margin-top: 8px;
+  }
+  
