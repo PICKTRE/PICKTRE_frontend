@@ -1,7 +1,9 @@
 import "./App.css";
+import Benefit from "./components/benefit/Benefit";
 import LandingPage from "./components/landingPage/LandingPage";
 import MyPage from "./components/myPage/MyPage";
 import Setting from "./components/setting/Setting";
+import QRCamera from "./components/camera/QRcamera";
 import { AnimatePresence } from "framer-motion";
 import { Routes, Route } from "react-router-dom";
 import InviteFriends from "./components/inviteFriends/InviteFriends";

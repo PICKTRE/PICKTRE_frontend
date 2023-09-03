@@ -1,0 +1,23 @@
+.container {
+    width: 390px;
+    height: 668.5px;
+    background-color: #ACE2B5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.camera {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 120px;
+}
+
+.iframe {
+    overflow: auto;
+}
