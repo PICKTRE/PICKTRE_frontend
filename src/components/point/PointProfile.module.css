@@ -1,0 +1,74 @@
+.profileBox {
+  color: #008163;
+  width: 90%;
+  height: 80%;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.profileTopSection {
+  height: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.mascotSection {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+}
+
+.mascot {
+  width: 95%;
+}
+
+.textSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.profileBottomSection {
+  height: 45%;
+  width: 100%;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.currentPoint,
+.myActivityReport {
+  width: 45%;
+  height: 45%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Nexon Lv1 Gothic OTF Bold';
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.currentPoint {
+  background-color: #cef4d0;
+}
+
+.myActivityReport {
+  background-color: #008163;
+  color: white;
+}
+
+.boldText {
+  font-family: 'NEXON Lv1 Gothic OTF Bold';
+  text-decoration: underline;
+  text-decoration-color: #cef4d0;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 3px;
+}

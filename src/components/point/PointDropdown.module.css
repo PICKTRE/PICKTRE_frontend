@@ -1,0 +1,51 @@
+.ul {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  background-color: white;
+  width: max-content;
+  font-size: 0.75rem;
+}
+
+.list {
+  display: block;
+}
+
+.ul,
+.list {
+  list-style: none;
+  margin: 0;
+  margin-left: 7px;
+  padding: 10px;
+}
+
+.list:hover {
+  background-color: rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.button {
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-family: 'NEXON Lv1 Gothic OTF Bold';
+  font-size: 1rem;
+  cursor: pointer;
+  width: 23%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 3px;
+  left: 10px;
+  position: relative;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  padding-bottom: 50px;
+  align-items: center;
+}
