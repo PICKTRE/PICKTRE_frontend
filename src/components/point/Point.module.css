@@ -1,0 +1,20 @@
+.main {
+  width: 390px;
+  height: 646.15px;
+  background-color: #ACE2B5;
+}
+
+.profileSection {
+  height: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pointListSection {
+  height: 65%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

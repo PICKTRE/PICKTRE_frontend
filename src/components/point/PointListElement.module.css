@@ -1,0 +1,49 @@
+.pointListElement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  padding: 1rem;
+}
+
+.date {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.textSection {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0.75rem;
+  width: 60%;
+  height: 100%;
+}
+
+.mainText {
+  font-family: 'NEXON Lv1 Gothic OTF Bold';
+}
+
+.subText {
+  font-size: 0.75rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.point {
+  width: 20%;
+  height: 100%;
+  color: #008163;
+  display: flex;
+  justify-content: center;
+  font-family: 'NEXON Lv1 Gothic OTF Bold';
+}
+
+.negativePoints {
+  width: 20%;
+  height: 100%;
+  color: #dc5252;
+  display: flex;
+  justify-content: center;
+  font-family: 'NEXON Lv1 Gothic OTF Bold';
+}

@@ -1,5 +1,6 @@
 import "./App.css";
 import Home from "./components/home/Home";
+import Point from "./components/point/Point";
 import Benefit from "./components/benefit/Benefit";
 import LandingPage from "./components/landingPage/LandingPage";
 import MyPage from "./components/myPage/MyPage";
@@ -24,6 +25,7 @@ function App() {
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/point" element={<Point />} />
           <Route path="/mypage" element={<MyPage />} />
           <Route path="/setting" element={<Setting />} />
           <Route path="/qrcamera" element={<QRCamera />} />
