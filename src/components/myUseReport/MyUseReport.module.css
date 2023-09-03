@@ -1,0 +1,77 @@
+.main {
+    width: 390px;
+    height: 646.15px;
+    background-color: #ACE2B5;
+  }
+  
+  .badgeSection{
+    width: 390px;
+    height: 322px;
+    background-color: #ACE2B5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .activitySection{
+    width: 390px;
+    height: 324.15px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .activitySection p{
+    margin: 0px 153px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    font-size: 17px;
+    color: #00562F;
+    font-weight: 900;
+  }
+  
+  .activities{
+    width: 215px;
+    height: 49px;
+    overflow: hidden;
+    position: relative;
+    background-color: #ebebeb;
+    margin: 0px 153px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+  }
+  
+  .activities::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 215px;
+    height: 100%;
+    /* background: linear-gradient(to right, #f2f2f2, #ddd, #f2f2f2); */
+    animation: loading 2s infinite linear;
+  }
+  
+  @keyframes loading {
+    0% {
+      background-color: rgba(165, 165, 165, 0.1);
+    }
+  
+    50% {
+      background-color: rgba(165, 165, 165, 0.3);
+    }
+  
+    100% {
+      background-color: rgba(165, 165, 165, 0.1);
+    }
+  }
+  
+  

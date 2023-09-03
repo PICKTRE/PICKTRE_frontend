@@ -7,6 +7,7 @@ import QRCamera from "./components/camera/QRcamera";
 import { AnimatePresence } from "framer-motion";
 import { Routes, Route } from "react-router-dom";
 import InviteFriends from "./components/inviteFriends/InviteFriends";
+import ActivityReport from "./components/myUseReport/MyUseReport";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/benefit" element={<Benefit />} />
           <Route path="/qrcamera" element={<QRCamera />} />
           <Route path="/invite-friends" element={<InviteFriends />} />
+          <Route path="/activity-report" element={<ActivityReport />} />
         </Routes>
       </AnimatePresence>
     </>
