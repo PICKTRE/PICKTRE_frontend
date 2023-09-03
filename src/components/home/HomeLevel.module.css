@@ -1,0 +1,35 @@
+.levelSection {
+  width: 359px;
+  height: 30px;
+  background-color: white;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3px;
+}
+
+.levelCharacter {
+  color: white;
+  font-weight: 900;
+  font-size: 0.8rem;
+}
+
+.levelColorSection {
+  width: 340px;
+  height: 15px;
+  border-radius: 20px;
+  background-color: #e1e1e1;
+}
+
+.levelGradationColorSection {
+  position: relative;
+  top: 0; /* 상단에 위치하도록 설정 */
+  left: 0; /* 좌측에 위치하도록 설정 */
+  width: 100%; /* 가로 폭을 100%로 설정 */
+  height: 15px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #b6f2c2, #01646b);
+}

@@ -1,0 +1,71 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.75rem 0.75rem 1.5rem 0.75rem;
+  border: 2px solid gray;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.cardBadge {
+  background-color: #008163;
+  position: relative;
+  top: 25px;
+  left: 20px;
+  color: white;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.7rem;
+  font-weight: bold;
+  border-radius: 0.15rem;
+  width: 40px;
+  text-align: center;
+}
+
+.cardPhoto {
+  width: 200px;
+  height: 180px;
+  background-color: gray;
+  border-radius: 3px 3px 0 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.cardMainText {
+  margin: 0.5rem;
+  font-size: 0.5rem;
+  font-style: bold;
+}
+
+.cardSubText {
+  font-size: 0.5rem;
+  color: gray;
+}
+
+.cardHeart {
+  color: #ffa6c8;
+  display: flex;
+  align-items: center;
+  padding-right: 0.15rem;
+}
+
+.cardLikeCount {
+  font-style: bold;
+}
+
+.cardFooterWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0.25rem 0.75rem 0.25rem 0;
+  font-weight: 900;
+}
+
+.cardFooter {
+  font-size: 0.5rem;
+  display: flex;
+  align-items: center;
+}
