@@ -1,0 +1,149 @@
+.rewardSection {
+  width: 359px;
+  height: 130px;
+  background-color: #d0f2d1;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rewardImg {
+  width: 88px;
+  height: 88px;
+  border-radius: 100px;
+  background-color: #e3e3e3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reward {
+  display: flex;
+}
+
+.rewardInfoSection {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.rewardInfo {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  color: #00562f;
+}
+
+.rewardInfoText {
+  font-size: 12px;
+  line-height: 140%;
+}
+
+.rewardInfo li {
+  list-style: none;
+  margin-bottom: 4px;
+  line-height: 140%;
+}
+
+.name {
+  width: 109px;
+  height: 15px;
+  background-color: #e3e3e3;
+}
+
+.todayReward {
+  width: 34px;
+  height: 11px;
+  background-color: #e3e3e3;
+}
+
+.totalReward {
+  width: 34px;
+  height: 11px;
+  background-color: #e3e3e3;
+}
+
+.rewardTier {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rewardTierImg {
+  width: 64px;
+  height: 68px;
+  border-radius: 100px;
+  background-color: #e3e3e3;
+}
+
+.rewardTierImgs {
+  width: 64px;
+  height: 68px;
+  border-radius: 100px;
+}
+
+.rewardTierContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 108px;
+  height: 10px;
+  background-color: #e3e3e3;
+  font-size: 7px;
+}
+
+.verify {
+  width: 223px;
+  height: 16px;
+  font-size: 7px;
+  border-radius: 7px;
+  border: 0px;
+  margin: 5px 0px 0px 14px;
+  background-color: #e8fae9;
+}
+
+@keyframes loading {
+  0% {
+    background-color: rgba(165, 165, 165, 0.1);
+  }
+
+  50% {
+    background-color: rgba(165, 165, 165, 0.3);
+  }
+
+  100% {
+    background-color: rgba(165, 165, 165, 0.1);
+  }
+}
+
+.todayReward::before,
+.totalReward::before,
+.name::before,
+.rewardImg::before,
+.rewardTierImg::before,
+.rewardTierContent::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120px;
+  height: 100%;
+  /* background: linear-gradient(to right, #f2f2f2, #ddd, #f2f2f2); */
+  animation: loading 2s infinite linear;
+}
+
+.todayReward,
+.totalReward,
+.name,
+.rewardImg,
+.rewardTierImg,
+.rewardTierContent {
+  overflow: hidden;
+  position: relative;
+  background-color: #ebebeb;
+}
