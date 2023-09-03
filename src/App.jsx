@@ -15,6 +15,7 @@ import TrashcameraPaper from "./components/camera/TrashCameraPaper";
 import TrashcameraMetal from "./components/camera/TrashCameraMetal";
 import TrashCameraGlass from "./components/camera/TrashCameraGlass";
 import TrashcameraMedical from "./components/camera/TrashCameraMedical";
+import Map from "./components/map/Map";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           <Route path="/trashcamera/paper" element={<TrashcameraPaper />} />
           <Route path="/trashcamera/ewaste" element={<TrashcameraEwaste />} />
           <Route path="/trashcamera/medical" element={<TrashcameraMedical />} />
+          <Route path="/map" element={<Map />} />
         </Routes>
       </AnimatePresence>
     </>

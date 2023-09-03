@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-google-maps/api": "^2.19.2",
     "@tensorflow/tfjs": "^4.10.0",
     "@zxing/library": "^0.20.0",
     "axios": "^1.5.0",
@@ -19,6 +20,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
     "react-router-dom": "^6.15.0",
+    "styled-components": "^6.0.7",
     "victory": "^36.6.11"
   },
   "devDependencies": {
