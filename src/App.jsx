@@ -10,7 +10,7 @@ import TrashcameraPlastic from "./components/camera/TrashCameraPlastic";
 import TrashcameraGlass from "./components/camera/TrashCameraGlass";
 import TrashcameraMetal from "./components/camera/TrashCameraMetal";
 import TrashcameraPaper from "./components/camera/TrashCameraPaper";
-import TrashcameraTrash from "./components/camera/TrashCameraTrash";
+import TrashcameraEwaste from "./components/camera/TrashcameraEwaste";
 import Store from "./components/store/Store";
 import ActivityReport from "./components/myUseReport/MyUseReport";
 import TrashcameraMedical from "./components/camera/TrashCameraMedical";
@@ -43,7 +43,7 @@ function App() {
               <Route path="/trashcamera/plastic" element={<TrashcameraPlastic />} />
               <Route path="/trashcamera/metal" element={<TrashcameraMetal />} />
               <Route path="/trashcamera/paper" element={<TrashcameraPaper />} />
-              <Route path="/trashcamera/trash" element={<TrashcameraTrash />} />
+              <Route path="/trashcamera/ewaste" element={<TrashcameraEwaste />} />
               <Route path="/trashcamera/medical" element={<TrashcameraMedical />} />
               <Route path="/benefit" element={<Benefit />} />
               <Route path="/ranking" element={<Ranking />} />
