@@ -10,7 +10,7 @@ import TrashcameraPlastic from "./components/camera/TrashCameraPlastic";
 import TrashcameraGlass from "./components/camera/TrashCameraGlass";
 import TrashcameraMetal from "./components/camera/TrashCameraMetal";
 import TrashcameraPaper from "./components/camera/TrashCameraPaper";
-import TrashcameraEwaste from "./components/camera/TrashcameraEwaste";
+import TrashcameraEwaste from "./components/camera/TrashCameraEwaste";
 import Store from "./components/store/Store";
 import ActivityReport from "./components/myUseReport/MyUseReport";
 import TrashcameraMedical from "./components/camera/TrashCameraMedical";
@@ -20,7 +20,7 @@ import InviteFriends from "./components/inviteFriends/InviteFriends";
 import Notice from "./components/notice/Notice";
 import Qna from "./components/qna/Qna";
 import RedirectPage from "./components/landingPage/RedirectPage";
-import Setting from "./components/setting/Setting"
+import Setting from "./components/setting/Setting";
 import { AnimatePresence } from "framer-motion";
 
 function App() {
@@ -40,11 +40,20 @@ function App() {
               <Route path="/home" element={<Home />} />
               <Route path="/qrcamera" element={<QRCamera />} />
               <Route path="/trashcamera/glass" element={<TrashcameraGlass />} />
-              <Route path="/trashcamera/plastic" element={<TrashcameraPlastic />} />
+              <Route
+                path="/trashcamera/plastic"
+                element={<TrashcameraPlastic />}
+              />
               <Route path="/trashcamera/metal" element={<TrashcameraMetal />} />
               <Route path="/trashcamera/paper" element={<TrashcameraPaper />} />
-              <Route path="/trashcamera/ewaste" element={<TrashcameraEwaste />} />
-              <Route path="/trashcamera/medical" element={<TrashcameraMedical />} />
+              <Route
+                path="/trashcamera/ewaste"
+                element={<TrashcameraEwaste />}
+              />
+              <Route
+                path="/trashcamera/medical"
+                element={<TrashcameraMedical />}
+              />
               <Route path="/benefit" element={<Benefit />} />
               <Route path="/ranking" element={<Ranking />} />
               <Route path="/store" element={<Store />} />
