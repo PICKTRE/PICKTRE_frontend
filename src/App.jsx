@@ -11,6 +11,7 @@ import Store from "./components/store/Store";
 import { AnimatePresence } from "framer-motion";
 import { Routes, Route } from "react-router-dom";
 import InviteFriends from "./components/inviteFriends/InviteFriends";
+import Notice from "./components/notice/Notice";
 import ActivityReport from "./components/myUseReport/MyUseReport";
 import TrashcameraPlastic from "./components/camera/TrashCameraPlastic";
 import TrashcameraEwaste from "./components/camera/TrashCameraEwaste";
@@ -36,6 +37,7 @@ function App() {
           <Route path="/ranking" element={<Ranking />} />
           <Route path="/store" element={<Store />} />
           <Route path="/invite-friends" element={<InviteFriends />} />
+          <Route path="/notice" element={<Notice />} />
           <Route path="/activity-report" element={<ActivityReport />} />
           <Route path="/trashcamera/glass" element={<TrashCameraGlass />} />
           <Route path="/trashcamera/plastic" element={<TrashcameraPlastic />} />
