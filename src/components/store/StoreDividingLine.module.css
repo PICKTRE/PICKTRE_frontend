@@ -1,0 +1,18 @@
+.leftDividingLine,
+.rightDividingLine {
+  width: 40%;
+  border: 1px solid #000;
+}
+
+.text {
+  font-family: 'Nexon Lv1 Gothic OTF Bold';
+  width: 20%;
+  font-size: 0.8rem;
+  text-align: center;
+  position: relative;
+  top: -15px;
+}
+
+.dividingLine {
+  width: 390px;
+}

@@ -1,0 +1,41 @@
+.main {
+  width: 390px;
+  height: 646.5px;
+  background-color: #ffffff;
+  overflow-y: scroll;
+}
+
+.main::-webkit-scrollbar {
+  width: 8px;
+  height: 0px; /* 스크롤바의 너비 */
+}
+
+.main::-webkit-scrollbar-thumb {
+  background-color: #7DCCA1; /* 스크롤바의 색상 */
+  border-radius: 4px; /* 스크롤바의 모서리 둥글게 */
+}
+
+.main::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* 스크롤바 트랙의 색상 */
+}
+
+.searchingSection{
+  width: 390px;
+  height: 15%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popularSection{
+  width: 390px;
+  height: 37%;
+  background-color: #ffffff;
+}
+
+.otherSection{
+  width: 390px;
+  height: 48%;
+  background-color: #ffffff;
+}

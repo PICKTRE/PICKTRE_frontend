@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.17",
     "@react-google-maps/api": "^2.19.2",
     "@tensorflow/tfjs": "^4.10.0",
     "@zxing/library": "^0.20.0",
