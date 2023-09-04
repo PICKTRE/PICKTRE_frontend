@@ -9,7 +9,9 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/picktre/picktre_frontend/badge)](https://www.codefactor.io/repository/github/picktre/picktre_frontend)
 
 <div align="center">
-  <img width="320px" src="./src/assets/picktre_demonstration.gif" />
+  <iframe id="ytplayer" type="text/html" width="640" height="360"
+    src="https://www.youtube.com/embed/6T34HNa5KHw?autoplay=1"
+    frameborder="0"></iframe>
 </div>
 
 ---
@@ -155,5 +157,25 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-- Backend Server - [Apache-2.0 License](https://github.com/PICKTRE/PICKTRE_backend/blob/main/LICENSE)
-- AI - [Apache-2.0 License](https://github.com/PICKTRE/PICKTRE_ai/blob/main/LICENSE)
+<br />
+
+- NPM Library Used in Frontend Repository
+  <br /> `facebook/react`
+  <br /> https://github.com/facebook/react
+  <br /> [MIT License](https://github.com/facebook/react/blob/main/LICENSE)
+  <br />
+  <br /> `vitejs/vite`
+  <br /> https://github.com/vitejs/vite
+  <br /> [MIT License](https://github.com/vitejs/vite/blob/main/LICENSE)
+  <br />
+  <br /> `googlemaps/google-maps-services-js`
+  <br /> https://github.com/googlemaps/google-maps-services-js
+  <br /> [Apache License 2.0](https://github.com/googlemaps/google-maps-services-js/blob/master/LICENSE.md)
+  <br />
+  <br /> `tensorflow/tfjs-models`
+  <br /> https://github.com/tensorflow/tfjs-models
+  <br /> [Apache License 2.0](https://github.com/tensorflow/tfjs-models/blob/master/LICENSE)
+  <br />
+  <br /> `framer/motion`
+  <br /> https://github.com/framer/motion
+  <br /> [MIT License](https://github.com/framer/motion/blob/main/LICENSE.md)
