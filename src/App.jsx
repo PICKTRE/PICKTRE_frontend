@@ -13,6 +13,7 @@ import { Routes, Route } from "react-router-dom";
 import InviteFriends from "./components/inviteFriends/InviteFriends";
 import Notice from "./components/notice/Notice";
 import ActivityReport from "./components/myUseReport/MyUseReport";
+import Qna from "./components/qna/Qna";
 import TrashcameraPlastic from "./components/camera/TrashCameraPlastic";
 import TrashcameraEwaste from "./components/camera/TrashCameraEwaste";
 import TrashcameraPaper from "./components/camera/TrashCameraPaper";
@@ -39,6 +40,7 @@ function App() {
           <Route path="/invite-friends" element={<InviteFriends />} />
           <Route path="/notice" element={<Notice />} />
           <Route path="/activity-report" element={<ActivityReport />} />
+          <Route path="/qna" element={<Qna />} />
           <Route path="/trashcamera/glass" element={<TrashCameraGlass />} />
           <Route path="/trashcamera/plastic" element={<TrashcameraPlastic />} />
           <Route path="/trashcamera/metal" element={<TrashcameraMetal />} />
