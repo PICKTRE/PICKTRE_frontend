@@ -7,6 +7,7 @@ import MyPage from "./components/myPage/MyPage";
 import Setting from "./components/setting/Setting";
 import QRCamera from "./components/camera/QRcamera";
 import Ranking from "./components/ranking/Ranking";
+import Store from "./components/store/Store";
 import { AnimatePresence } from "framer-motion";
 import { Routes, Route } from "react-router-dom";
 import InviteFriends from "./components/inviteFriends/InviteFriends";
@@ -32,7 +33,8 @@ function App() {
           <Route path="/qrcamera" element={<QRCamera />} />
           <Route path="/benefit" element={<Benefit />} />
           <Route path="/qrcamera" element={<QRCamera />} />
-          <Route path="/ranking" element={<Ranking />}></Route>
+          <Route path="/ranking" element={<Ranking />} />
+          <Route path="/store" element={<Store />} />
           <Route path="/invite-friends" element={<InviteFriends />} />
           <Route path="/activity-report" element={<ActivityReport />} />
           <Route path="/trashcamera/glass" element={<TrashCameraGlass />} />

@@ -1,0 +1,27 @@
+.popularDividingSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.popularGoods {
+  display: flex;
+  overflow-x: scroll;
+  position: relative;
+  top: -25px;
+}
+
+.popularGoods::-webkit-scrollbar {
+  width: 4px;
+  height: 1px; /* 스크롤바의 너비 */
+}
+
+.popularGoods::-webkit-scrollbar-thumb {
+  background-color: #7DCCA1; /* 스크롤바의 색상 */
+  border-radius: 4px; /* 스크롤바의 모서리 둥글게 */
+}
+
+.popularGoods::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* 스크롤바 트랙의 색상 */
+}
