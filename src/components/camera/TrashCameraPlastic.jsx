@@ -22,20 +22,13 @@ const TrashcameraPlastic = () => {
   };
   let net;
   const camera = useRef();
-  // const figures = useRef();
-  // const label_dict = {
-  //   0: 'cardboard',
-  //   1: 'e-waste',
-  //   2: 'glass',
-  //   3: 'medical',
-  //   4: 'metal',
-  //   5: 'paper',
-  //   6: 'plastic'
-  // };
+
+  // 모델 로드 함수
   const loadModel = async () => {
     net = await tf.loadLayersModel(`${VITE_MODEL_URL}`);
   };
 
+  // 쓰레기 분류 실행 함수
   const run = async () => {
     await loadModel();
     const webcam = await tf.data.webcam(camera.current, {
@@ -58,10 +51,7 @@ const TrashcameraPlastic = () => {
 
         const result = await net.predict(resizedImage);
 
-        // const index = result.argMax(1).dataSync();
-
-        // const resultLabel = label_dict[index];
-        //console.log("array값", result.dataSync()[6]);
+        // 쓰레기 종류에 대한 예측 결과를 확인하고, 플라스틱인지 판별합니다.
         if (result.dataSync()[6] >= 0.8) {
           try {
             const createResponse = await cameraReward(memberId, "plastic", 400);
@@ -93,6 +83,7 @@ const TrashcameraPlastic = () => {
     };
   };
 
+  // 이미지 전처리 함수
   const preprocessImage = (image) => {
     const img = image.toFloat();
     const resized = tf.image.resizeBilinear(img, [224, 224]);

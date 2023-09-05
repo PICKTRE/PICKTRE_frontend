@@ -22,26 +22,19 @@ const TrashCameraGlass = () => {
   };
   let net;
   const camera = useRef();
-  // const figures = useRef();
-  // const label_dict = {
-  //   0: 'cardboard',
-  //   1: 'e-waste',
-  //   2: 'glass',
-  //   3: 'medical',
-  //   4: 'metal',
-  //   5: 'paper',
-  //   6: 'plastic'
-  // };
+
+  // 모델 로드 함수
   const loadModel = async () => {
     net = await tf.loadLayersModel(`${VITE_MODEL_URL}`);
   };
 
+  // 쓰레기 분류 실행 함수
   const run = async () => {
     await loadModel();
     const webcam = await tf.data.webcam(camera.current, {
       resizeWidth: 224,
       resizeHeight: 224,
-      facingMode: 'environment',
+      facingMode: "environment",
     });
 
     const frameInterval = 100; // 프레임 해제 간격 (밀리초)
@@ -58,30 +51,8 @@ const TrashCameraGlass = () => {
 
         const result = await net.predict(resizedImage);
 
-        // const index = result.argMax(1).dataSync();
-
-        // const resultLabel = label_dict[index];
-
-        // if (figures.current) {
-        //   figures.current.innerText = `쓰레기 측정 결과: ${resultLabel}`;
-        //   if (resultLabel === "glass") {
-        //     try {
-        //       const createResponse = await cameraReward(2, "glass", 500);
-        //       console.log(createResponse);
-        //       alert("확인되었습니다.");
-        //       navigate("/home");
-        //       return () => {
-        //         isRunning = false;
-        //       };
-        //       // Handle createResponse if needed
-        //     } catch (error) {
-        //       console.error("Camera reward creation error:", error);
-        //     }
-        //   }
-        // }
-
+        // 쓰레기가 유리라고 판별되면
         if (result.dataSync()[2] >= 0.8) {
-          // alert("성공");
           try {
             const createResponse = await cameraReward(memberId, "glass", 500);
             console.log(createResponse);
@@ -112,7 +83,7 @@ const TrashCameraGlass = () => {
     };
   };
 
-
+  // 이미지 전처리 함수
   const preprocessImage = (image) => {
     const img = image.toFloat();
     const resized = tf.image.resizeBilinear(img, [224, 224]);
@@ -136,7 +107,6 @@ const TrashCameraGlass = () => {
         animate="visible"
       >
         <section className={classes.camera}>
-          {/* <div ref={figures} /> */}
           <video
             autoPlay
             playsInline

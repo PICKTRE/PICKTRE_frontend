@@ -22,16 +22,6 @@ const TrashcameraPaper = () => {
   };
   let net;
   const camera = useRef();
-  // const figures = useRef();
-  // const label_dict = {
-  //   0: 'cardboard',
-  //   1: 'e-waste',
-  //   2: 'glass',
-  //   3: 'medical',
-  //   4: 'metal',
-  //   5: 'paper',
-  //   6: 'plastic'
-  // };
   const loadModel = async () => {
     net = await tf.loadLayersModel(`${VITE_MODEL_URL}`);
   };
@@ -41,7 +31,7 @@ const TrashcameraPaper = () => {
     const webcam = await tf.data.webcam(camera.current, {
       resizeWidth: 224,
       resizeHeight: 224,
-      facingMode: 'environment',
+      facingMode: "environment",
     });
 
     const frameInterval = 100; // 프레임 해제 간격 (밀리초)
@@ -58,28 +48,6 @@ const TrashcameraPaper = () => {
 
         const result = await net.predict(resizedImage);
 
-        // const index = result.argMax(1).dataSync();
-
-        // const resultLabel = label_dict[index];
-
-        // if (figures.current) {
-        //   figures.current.innerText = `쓰레기 측정 결과: ${resultLabel}`;
-        //   if (resultLabel === "paper") {
-        //     try {
-        //       const createResponse = await cameraReward(2, "paper", 200);
-        //       console.log(createResponse);
-        //       alert("확인되었습니다.");
-        //       navigate("/home");
-        //       return () => {
-        //         isRunning = false;
-        //       };
-        //       // Handle createResponse if needed
-        //     } catch (error) {
-        //       console.error("Camera reward creation error:", error);
-        //     }
-        //   }
-        // }
-
         if (result.dataSync()[5] >= 0.8) {
           // alert("성공");
           try {
@@ -93,7 +61,6 @@ const TrashcameraPaper = () => {
           } catch (error) {
             console.error("Camera reward creation error:", error);
           }
-
         }
 
         img.dispose();
@@ -112,7 +79,6 @@ const TrashcameraPaper = () => {
       isRunning = false;
     };
   };
-
 
   const preprocessImage = (image) => {
     const img = image.toFloat();
@@ -137,7 +103,6 @@ const TrashcameraPaper = () => {
         animate="visible"
       >
         <section className={classes.camera}>
-          {/* <div ref={figures} /> */}
           <video
             autoPlay
             playsInline
