@@ -38,11 +38,174 @@
 
 ---
 
-## 웹 서버 아키텍쳐
+## 아키텍쳐
 
+### 웹서버 아키텍처
 <div align="center">
   <img src="./src/assets/service_architecture.png" />
 </div>
+
+### 소스 디렉토리
+```
+|   App.css
+|   App.jsx
+|   main.jsx
+|
++---assets
+|      
++---components
+|   +---benefit
+|   |       Benefit.jsx : 이용 혜택 페이지
+|   |       Benefit.module.css
+|   |       BenefitSection.jsx
+|   |       BenefitSection.module.css
+|   |       GradeSection.jsx
+|   |       GradeSection.module.css
+|   |
+|   +---camera
+|   |       QRcamera.jsx : QR 코드 리더기 스캔 카메라 페이지
+|   |       QRcamera.module.css
+|   |       TrashCamera.module.css
+|   |       TrashCameraEwaste.jsx : 쓰레기 인식 카메라 페이지(Ewaste)
+|   |       TrashCameraGlass.jsx : 쓰레기 인식 카메라 페이지(Glass)
+|   |       TrashCameraMedical.jsx : 쓰레기 인식 카메라 페이지(Medical)
+|   |       TrashCameraMetal.jsx : 쓰레기 인식 카메라 페이지(Metal)
+|   |       TrashCameraPaper.jsx : 쓰레기 인식 카메라 페이지(Paper)
+|   |       TrashCameraPlastic.jsx : 쓰레기 인식 카메라 페이지(Plastic)
+|   |
+|   +---common
+|   |       AccordionList.jsx
+|   |       AccordionList.module.css
+|   |       chevron-down.svg
+|   |       Footer.jsx : 페이지 내 푸터
+|   |       Footer.module.css
+|   |       Header.jsx : 페이지 내 헤더
+|   |       Header.module.css
+|   |       HeaderLayout.jsx : 페이지 내 헤더, 및 페이지 이름
+|   |       HeaderLayout.module.css
+|   |
+|   +---home
+|   |   |   Home.jsx : 메인 홈페이지
+|   |   |   Home.module.css
+|   |   |   HomeButton.jsx
+|   |   |   HomeButton.module.css
+|   |   |   HomeCard.jsx
+|   |   |   HomeCard.module.css
+|   |   |   HomeLevel.jsx
+|   |   |   HomeLevel.module.css
+|   |   |   HomeMainPostText.jsx
+|   |   |   HomeMainPostText.module.css
+|   |   |   HomeReward.jsx
+|   |   |   HomeReward.module.css
+|   |   |
+|   |   \---dummy
+|   |           cardData.json
+|   |
+|   +---inviteFriends
+|   |       InviteFriends.jsx : 친구 초대하기 페이지
+|   |       InviteFriends.module.css
+|   |       InviteFriendsButton.jsx
+|   |       InviteFriendsButton.module.css
+|   |
+|   +---landingPage
+|   |       LandingPage.jsx : 로그인 안 되어 있을 시 로그인 페이지
+|   |       LandingPage.module.css
+|   |       Logo.jsx
+|   |       Logo.module.css
+|   |       RedirectPage.jsx
+|   |       SocialAccountButton.jsx
+|   |       SocialAccountButton.module.css
+|   |
+|   +---map
+|   |       GeoLocation.jsx
+|   |       Map.jsx : 지도 페이지
+|   |       Map.module.css
+|   |
+|   +---myPage
+|   |       MyList.jsx
+|   |       MyList.module.css
+|   |       MyPage.jsx : 마이페이지
+|   |       MyPage.module.css
+|   |       MyProfile.jsx
+|   |       MyProfile.module.css
+|   |       MySubPost.jsx
+|   |       MySubPost.module.css
+|   |
+|   +---myUseReport
+|   |       ActivityGraph.jsx
+|   |       activityGraph.module.css
+|   |       BadgeTitle.jsx
+|   |       badgeTitle.module.css
+|   |       MyUseReport.jsx : 이용 리포트 페이지
+|   |       MyUseReport.module.css
+|   |
+|   +---notice
+|   |   |   Notice.jsx : 공지사항 페이지
+|   |   |   Notice.module.css
+|   |   |
+|   |   \---dummy
+|   |           noticeData.json
+|   |
+|   +---point
+|   |   |   Point.jsx : 포인트 페이지
+|   |   |   Point.module.css
+|   |   |   PointDropdown.jsx
+|   |   |   PointDropdown.module.css
+|   |   |   PointList.jsx
+|   |   |   PointList.module.css
+|   |   |   PointListElement.jsx
+|   |   |   PointListElement.module.css
+|   |   |   PointProfile.jsx
+|   |   |   PointProfile.module.css
+|   |   |
+|   |   \---dummy
+|   |           pointData.json
+|   |           profileData.json
+|   |
+|   +---qna
+|   |   |   Qna.jsx : 자주 묻는 질문 페이지
+|   |   |   Qna.module.css
+|   |   |
+|   |   \---dummy
+|   |           qnaData.json
+|   |
+|   +---ranking
+|   |       Ranker.jsx
+|   |       Ranker.module.css
+|   |       Ranking.jsx : 랭킹 페이지
+|   |       Ranking.module.css
+|   |       RankingList.jsx
+|   |
+|   +---setting
+|   |       Setting.jsx
+|   |       Setting.module.css
+|   |
+|   \---store
+|       |   Store.jsx : 스토어 페이지
+|       |   Store.module.css
+|       |   StoreDividingLine.jsx
+|       |   StoreDividingLine.module.css
+|       |   StoreGoods.jsx
+|       |   StoreGoods.module.css
+|       |   StoreOther.jsx
+|       |   StoreOther.module.css
+|       |   StorePopular.jsx
+|       |   StorePopular.module.css
+|       |   StoreSearching.jsx
+|       |   StoreSearching.module.css
+|       |
+|       \---modal
+|               StoreGoodsModal.jsx : 구매시 안내 모달 창
+|               StoreGoodsModal.module.css
+|
++---constants
+|       OAuth.jsx
+|       url.jsx
+|
+\---service
+        cameraReward.jsx
+        showProfile.jsx 
+```
 
 ---
 
