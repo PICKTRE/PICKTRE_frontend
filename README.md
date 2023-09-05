@@ -1,5 +1,4 @@
 ### 환경을 위한 행동, 모두가 참여하는 서비스 (PICKTRE, Pick Trash)
-
 ![react-version](https://img.shields.io/badge/react-18.2.0-61DAFB?logo=react)
 ![vite-version](https://img.shields.io/badge/vite-4.4.9-646CFF?logo=vite)
 ![google-maps-version](https://img.shields.io/badge/google-2.19.2-4285F4?logo=googlemaps)
@@ -7,6 +6,7 @@
 ![framer-motion-version](https://img.shields.io/badge/framer-10.16.1-0055FF?logo=framer)
 [![license](https://img.shields.io/badge/License-MIT_License-brightgreen)](https://github.com/PICKTRE/PICKTRE_frontend/blob/main/LICENSE)
 [![CodeFactor](https://www.codefactor.io/repository/github/picktre/picktre_frontend/badge)](https://www.codefactor.io/repository/github/picktre/picktre_frontend)
+
 
 <div align="center">
  
@@ -66,7 +66,27 @@ https://picktre.netlify.app
 
 ---
 
-### 소스 디렉토리
+## 프로젝트 기술 스택
+
+### Environment
+<img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
+<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+
+### Config
+
+<img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white">
+
+### Development
+
+<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white">
+<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white">
+<img src="https://img.shields.io/badge/vite-646CFF?style=for-the-badge&logo=vite&logoColor=white">
+
+
+### Communication
+
+<img src="https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
+<img src="https://img.shields.io/badge/googlemeet-00897B?style=for-the-badge&logo=googlemeet&logoColor=white">
 
 ---
 
