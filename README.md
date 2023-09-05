@@ -26,9 +26,7 @@
 ## 아키텍쳐
 
 ### 웹서버 아키텍처
-<div align="center">
-  <img src="./src/assets/service_architecture.png" />
-</div>
+ ![리드미 웹서버](https://github.com/PICKTRE/PICKTRE_frontend/assets/48755156/47efa206-c475-4069-9753-705e64cafbb2)
 
 ### 소스 디렉토리
 ```
