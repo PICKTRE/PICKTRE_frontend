@@ -7,6 +7,8 @@
 [![license](https://img.shields.io/badge/License-MIT_License-brightgreen)](https://github.com/PICKTRE/PICKTRE_frontend/blob/main/LICENSE)
 [![CodeFactor](https://www.codefactor.io/repository/github/picktre/picktre_frontend/badge)](https://www.codefactor.io/repository/github/picktre/picktre_frontend)
 
+![KakaoTalk_20230905_125252478](https://github.com/PICKTRE/PICKTRE_frontend/assets/48755156/77515b2f-adfb-4058-be52-207881d5483b)
+
 
 <div align="center">
  
@@ -67,7 +69,6 @@ https://picktre.netlify.app
 ---
 
 ## 프로젝트 기술 스택
-
 ### Environment
 <img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
 <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
@@ -76,25 +77,38 @@ https://picktre.netlify.app
 
 <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white">
 
+<br/>
+
 ### Development
 
 <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white">
 <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white">
 <img src="https://img.shields.io/badge/vite-646CFF?style=for-the-badge&logo=vite&logoColor=white">
+<img src="https://img.shields.io/badge/axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white">
+<img src="https://img.shields.io/badge/googlemaps-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white">
+<img src="https://img.shields.io/badge/tensorflow.js-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
+<img src="https://img.shields.io/badge/zxing-181717?style=for-the-badge&logo=&logoColor=white">
 
+<br/>
+
+### Deploy
+
+<img src="https://img.shields.io/badge/netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white">
+
+<br/>
 
 ### Communication
 
 <img src="https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
 <img src="https://img.shields.io/badge/googlemeet-00897B?style=for-the-badge&logo=googlemeet&logoColor=white">
 
+<br/>
+<br/>
+<br/>
+<br/>
 ---
 
-## 프로젝트 결과
-
-### 1. 작품 사진
-
-<br>
+### 프로젝트 페이지 
 
 <p align="center">
   <img src=./readmeImg/메인홈페이지.png alt="executeShot1" width="150">
@@ -112,7 +126,6 @@ https://picktre.netlify.app
   <img src=./readmeImg/자주_묻는_질문.png alt="executeShot13" width="150">
   <img src=./readmeImg/설정.png alt="executeShot13" width="150">
 </p>
-
 
 ---
 
@@ -151,3 +164,16 @@ https://picktre.netlify.app
 - https://github.com/framer/motion
 
 - [MIT License](https://github.com/framer/motion/blob/main/LICENSE.md)
+
+
+`axios/axios`
+
+- https://github.com/axios/axios
+
+- [MIT License](https://github.com/axios/axios/blob/v1.x/LICENSE)
+
+`zxing/zxing`
+
+- https://github.com/zxing/zxing
+
+- [Apache License 2.0](https://github.com/zxing/zxing/blob/master/LICENSE)
