@@ -9,9 +9,9 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/picktre/picktre_frontend/badge)](https://www.codefactor.io/repository/github/picktre/picktre_frontend)
 
 <div align="center">
-  <iframe id="ytplayer" type="text/html" width="640" height="360"
+  <iframe width="640" height="360"
     src="https://www.youtube.com/embed/6T34HNa5KHw?autoplay=1"
-    frameborder="0"></iframe>
+    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ---
@@ -73,6 +73,7 @@ https://picktre.netlify.app
 ### 라이센스
 
 `PICKTRE/PICKTRE_frontend`
+
 - [MIT License](https://github.com/PICKTRE/PICKTRE_frontend/blob/main/LICENSE)
 
 `facebook/react`
