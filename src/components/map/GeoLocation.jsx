@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
 
 export const useGeoLocation = () => {
-  const [location, setLocation] = useState();
-  const [error, setError] = useState("");
+  const [location, setLocation] = useState(); // 현재 위치 정보 상태
+  const [error, setError] = useState(""); // 위치 정보 가져오기 실패 시 에러 메시지 상태
 
+  // 위치 정보를 가져오는 데 성공했을 때 호출되는 함수
   const handleSuccess = (pos) => {
     const { latitude, longitude } = pos.coords;
 
@@ -13,6 +14,7 @@ export const useGeoLocation = () => {
     });
   };
 
+  // 위치 정보 가져오기 실패 시 호출되는 함수
   const handleError = (err) => {
     setError(err.message);
   };
@@ -21,7 +23,7 @@ export const useGeoLocation = () => {
     const { geolocation } = navigator;
 
     if (!geolocation) {
-      setError("Geolocation is not supported.");
+      setError("Geolocation is not supported."); // 브라우저에서 지원되지 않을 때 에러 설정
       return;
     }
 
@@ -36,5 +38,5 @@ export const useGeoLocation = () => {
     };
   }, []);
 
-  return { location, error };
+  return { location, error }; // 현재 위치 정보와 에러 메시지 반환
 };
