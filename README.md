@@ -1,25 +1,10 @@
-## 환경을 위한 행동, 모두가 참여하는 서비스 (PICKTRE, Pick Trash)
-![react-version](https://img.shields.io/badge/react-18.2.0-61DAFB?logo=react)
-![vite-version](https://img.shields.io/badge/vite-4.4.9-646CFF?logo=vite)
-![google-maps-version](https://img.shields.io/badge/google-2.19.2-4285F4?logo=googlemaps)
-![tensorflowjs-version](https://img.shields.io/badge/tfjs-4.10.0-FF6F00?logo=tensorflow)
-![framer-motion-version](https://img.shields.io/badge/framer-10.16.1-0055FF?logo=framer)
-[![license](https://img.shields.io/badge/License-MIT_License-brightgreen)](https://github.com/PICKTRE/PICKTRE_frontend/blob/main/LICENSE)
-[![CodeFactor](https://www.codefactor.io/repository/github/picktre/picktre_frontend/badge)](https://www.codefactor.io/repository/github/picktre/picktre_frontend)
+# PICKTRE_frontend [![license](https://img.shields.io/badge/License-MIT_License-brightgreen)](https://github.com/PICKTRE/PICKTRE_frontend/blob/main/LICENSE)
 
+## 소개
+<img src="https://github.com/PICKTRE/PICKTRE_backend/assets/101933437/bb49dce2-a814-4722-8545-8b91e318f268" width="300" height="200">
+<br>
 
-
-
-<div align="center">
-
-![KakaoTalk_20230905_125252478](https://github.com/PICKTRE/PICKTRE_frontend/assets/48755156/77515b2f-adfb-4058-be52-207881d5483b)
- 
-    
-</div>
-
----
-
-## 개발 배경
+> 환경을 위한 행동, 모두가 참여하는 서비스 (PICKTRE, Pick Trash)
 
 현대 사회에서 쓰레기 문제는 점점 심각해지고 있으며, 쓰레기의 적절한 처리는 환경보호와 지속가능한 발전을 위해 중요한 문제로 인식되고 있습니다.
 
@@ -27,7 +12,7 @@
 
 이러한 배경에서 PICKTRE는 쓰레기를 적절하게 처리하고, 시민들의 쓰레기 버리기 습관을 개선하여 환경보호와 재활용 문화를 확산 시키는데 목적을 두고 있습니다. 또한, 사용자들이 쓰레기를 버릴 때 보상을 제공하여 쓰레기 문제에 대한 인식과 참여 향상을 목표로 합니다.
 
----
+[PICKTRE 홈페이지](https://picktre.netlify.app "PICKTRE") 
 
 ## 시연 영상
 
