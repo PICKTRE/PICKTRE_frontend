@@ -1,4 +1,4 @@
-### 환경을 위한 행동, 모두가 참여하는 서비스 (PICKTRE, Pick Trash)
+## 환경을 위한 행동, 모두가 참여하는 서비스 (PICKTRE, Pick Trash)
 ![react-version](https://img.shields.io/badge/react-18.2.0-61DAFB?logo=react)
 ![vite-version](https://img.shields.io/badge/vite-4.4.9-646CFF?logo=vite)
 ![google-maps-version](https://img.shields.io/badge/google-2.19.2-4285F4?logo=googlemaps)
@@ -7,18 +7,19 @@
 [![license](https://img.shields.io/badge/License-MIT_License-brightgreen)](https://github.com/PICKTRE/PICKTRE_frontend/blob/main/LICENSE)
 [![CodeFactor](https://www.codefactor.io/repository/github/picktre/picktre_frontend/badge)](https://www.codefactor.io/repository/github/picktre/picktre_frontend)
 
-![KakaoTalk_20230905_125252478](https://github.com/PICKTRE/PICKTRE_frontend/assets/48755156/77515b2f-adfb-4058-be52-207881d5483b)
+
 
 
 <div align="center">
+
+![KakaoTalk_20230905_125252478](https://github.com/PICKTRE/PICKTRE_frontend/assets/48755156/77515b2f-adfb-4058-be52-207881d5483b)
  
-[![Video Label](http://img.youtube.com/vi/6T34HNa5KHw/0.jpg)](https://www.youtube.com/embed/6T34HNa5KHw?autoplay=1)
     
 </div>
 
 ---
 
-### 개발 배경
+## 개발 배경
 
 현대 사회에서 쓰레기 문제는 점점 심각해지고 있으며, 쓰레기의 적절한 처리는 환경보호와 지속가능한 발전을 위해 중요한 문제로 인식되고 있습니다.
 
@@ -28,7 +29,16 @@
 
 ---
 
-### 웹 서버 아키텍쳐
+## 시연 영상
+
+<div align="center">
+ 
+  [![Video Label](http://img.youtube.com/vi/6T34HNa5KHw/0.jpg)](https://www.youtube.com/embed/6T34HNa5KHw?autoplay=1)
+</div>
+
+---
+
+## 웹 서버 아키텍쳐
 
 <div align="center">
   <img src="./src/assets/service_architecture.png" />
@@ -36,7 +46,7 @@
 
 ---
 
-### 프로젝트 시작 (로컬)
+## 프로젝트 시작 (로컬)
 
 1. 프로젝트를 clone 합니다.
 
@@ -70,45 +80,43 @@ https://picktre.netlify.app
 
 ## 프로젝트 기술 스택
 ### Environment
-<img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
-<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+<div>
+ <img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
+ <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+
+</div>
 
 ### Config
 
 <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white">
 
-<br/>
 
 ### Development
 
-<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white">
-<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white">
-<img src="https://img.shields.io/badge/vite-646CFF?style=for-the-badge&logo=vite&logoColor=white">
-<img src="https://img.shields.io/badge/axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white">
-<img src="https://img.shields.io/badge/googlemaps-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white">
-<img src="https://img.shields.io/badge/tensorflow.js-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
-<img src="https://img.shields.io/badge/zxing-181717?style=for-the-badge&logo=&logoColor=white">
+<div>
+ <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white">
+ <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white">
+ <img src="https://img.shields.io/badge/vite-646CFF?style=for-the-badge&logo=vite&logoColor=white">
+ <img src="https://img.shields.io/badge/axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white">
+ <img src="https://img.shields.io/badge/googlemaps-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white">
+ <img src="https://img.shields.io/badge/tensorflow.js-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
+ <img src="https://img.shields.io/badge/zxing-181717?style=for-the-badge&logo=&logoColor=white">
+</div>
 
-<br/>
 
 ### Deploy
-
 <img src="https://img.shields.io/badge/netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white">
 
-<br/>
-
 ### Communication
+<div>
+ <img src="https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
+ <img src="https://img.shields.io/badge/googlemeet-00897B?style=for-the-badge&logo=googlemeet&logoColor=white"> 
+</div>
 
-<img src="https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
-<img src="https://img.shields.io/badge/googlemeet-00897B?style=for-the-badge&logo=googlemeet&logoColor=white">
 
-<br/>
-<br/>
-<br/>
-<br/>
 ---
 
-### 프로젝트 페이지 
+## 프로젝트 페이지 
 
 <p align="center">
   <img src=./readmeImg/메인홈페이지.png alt="executeShot1" width="150">
