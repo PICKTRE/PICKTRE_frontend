@@ -9,9 +9,9 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/picktre/picktre_frontend/badge)](https://www.codefactor.io/repository/github/picktre/picktre_frontend)
 
 <div align="center">
-  <iframe width="640" height="360"
-    src="https://www.youtube.com/embed/6T34HNa5KHw?autoplay=1"
-    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
+[![Video Label](http://img.youtube.com/vi/6T34HNa5KHw/0.jpg)](https://www.youtube.com/embed/6T34HNa5KHw?autoplay=1)
+    
 </div>
 
 ---
