@@ -18,21 +18,26 @@ const Benefit = () => {
 
   return (
     <>
+      {/* 페이지 헤더 */}
       <HeaderLayout title="Benefits by grade" />
+      {/* 페이지 컨텐츠 */}
       <motion.main
         className={classes.main}
         variants={contentVariants}
         initial="hidden"
         animate="visible"
       >
+        {/* 등급 정보 섹션 */}
         <section className={classes.gradeSection}>
           <GradeSection />
         </section>
+        {/* 혜택 정보 섹션 */}
         <section className={classes.benefitSection}>
           혜택
           <BenefitSection />
         </section>
       </motion.main>
+      {/* 페이지 푸터 */}
       <Footer />
     </>
   );
