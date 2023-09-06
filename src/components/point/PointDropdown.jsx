@@ -12,20 +12,24 @@ const itemVariants = {
 };
 
 const PointDropdown = () => {
+  // 드롭다운 메뉴의 열림/닫힘 상태를 관리하는 상태값
   const [isOpen, setIsOpen] = useState(false);
 
   return (
+    // 드롭다운 메뉴를 표시하는 네비게이션 컴포넌트
     <motion.nav
       initial={false}
       animate={isOpen ? "open" : "closed"}
       className="menu"
     >
+      {/* 메뉴 버튼 */}
       <motion.button
         className={classes.button}
         whileTap={{ scale: 0.97 }}
         onClick={() => setIsOpen(!isOpen)}
       >
         전체
+        {/* 메뉴 아이콘 회전 애니메이션 */}
         <motion.div
           variants={{
             open: { rotate: 180 },
@@ -34,6 +38,7 @@ const PointDropdown = () => {
           transition={{ duration: 0.2 }}
           style={{ originY: 0.55 }}
         >
+          {/* 화살표 아이콘 */}
           <svg
             fill="#000000"
             height="10px"
@@ -54,6 +59,7 @@ const PointDropdown = () => {
           </svg>
         </motion.div>
       </motion.button>
+      {/* 드롭다운 메뉴 목록 */}
       <motion.ul
         className={classes.ul}
         variants={{
@@ -78,14 +84,15 @@ const PointDropdown = () => {
         }}
         style={{ pointerEvents: isOpen ? "auto" : "none" }}
       >
+        {/* 드롭다운 메뉴 항목 */}
         <motion.li className={classes.list} variants={itemVariants}>
-          전체{" "}
+          전체
         </motion.li>
         <motion.li className={classes.list} variants={itemVariants}>
-          받은 내역{" "}
+          받은 내역
         </motion.li>
         <motion.li className={classes.list} variants={itemVariants}>
-          소비한 내역{" "}
+          소비한 내역
         </motion.li>
       </motion.ul>
     </motion.nav>

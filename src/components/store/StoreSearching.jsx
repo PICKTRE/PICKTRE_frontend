@@ -21,6 +21,7 @@ const StoreSearching = () => {
 
   return (
     <>
+      {/* 검색 엔진 및 검색 바 */}
       <div className={classes.searching}>
         <div className={classes.searchingTitle}>
           <input
@@ -35,6 +36,8 @@ const StoreSearching = () => {
           1. PICKTRE SPRING NOTE
         </div>
       </div>
+
+      {/* 현재 포인트 표시 */}
       <div className={classes.currentPoint}>
         {name}님,
         <br />

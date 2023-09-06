@@ -15,8 +15,9 @@ const StoreDividingLine = ({ text }) => {
   );
 };
 
+// 'text' prop의 데이터 타입과 필수 여부를 검사하는 propTypes 설정
 StoreDividingLine.propTypes = {
-  text: PropTypes.string.isRequired, // text props의 유형 및 필수 여부 검사
+  text: PropTypes.string.isRequired, // 'text' prop은 문자열(string) 타입이며 필수(required)임
 };
 
 export default StoreDividingLine;

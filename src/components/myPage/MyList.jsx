@@ -11,24 +11,40 @@ import { useNavigate } from "react-router-dom";
 
 const MyList = () => {
   const navigate = useNavigate();
+
+  // 혜택 버튼 클릭 시 이벤트 핸들러
   const onClickBenefit = () => {
     navigate("/benefit");
   };
+
+  // 이용 리포트 버튼 클릭 시 이벤트 핸들러
   const onClickActivityReport = () => {
     navigate("/activity-report");
   };
+
+  // 친구 초대하기 버튼 클릭 시 이벤트 핸들러
   const onClickInviteFriends = () => {
     navigate("/invite-friends");
   };
-  const onClickQna = () => {
-    navigate("/qna");
+
+  // 사용 가이드 버튼 클릭 시 이벤트 핸들러
+  const onClickGuide = () => {
+    alert("추후에 업데이트 될 서비스입니다.");
   };
+
+  // 공지사항 버튼 클릭 시 이벤트 핸들러
   const onClickNotice = () => {
     navigate("/notice");
   };
 
-  const onClickAlert = () => {
+  // 서비스 안내 버튼 클릭 시 이벤트 핸들러
+  const onClickServiceGuide = () => {
     alert("추후에 업데이트 될 서비스입니다.");
+  };
+
+  // 자주 묻는 질문 버튼 클릭 시 이벤트 핸들러
+  const onClickFAQ = () => {
+    navigate("/faq");
   };
 
   return (
@@ -36,41 +52,29 @@ const MyList = () => {
       <ul className={classes.firstList}>
         <li onClick={onClickBenefit}>
           <div className={classes.listTitle}>
-            <img src={rank} alt="rank이미지입니다." className={classes.rank} />
-            등급별 혜택안내
+            <img src={rank} alt="등급 이미지" className={classes.rank} />
+            등급별 혜택 안내
           </div>
           <IoIosArrowForward size="27" color="#ACE2B5" />
         </li>
         <li onClick={onClickActivityReport}>
           <div className={classes.listTitle}>
-            <img
-              src={report}
-              alt="report이미지입니다."
-              className={classes.report}
-            />
-            이용리포트
+            <img src={report} alt="리포트 이미지" className={classes.report} />
+            이용 리포트
           </div>
           <IoIosArrowForward size="27" color="#ACE2B5" />
         </li>
         <li onClick={onClickInviteFriends}>
           <div className={classes.listTitle}>
-            <img
-              src={invite}
-              alt="invite이미지입니다."
-              className={classes.invite}
-            />
+            <img src={invite} alt="초대 이미지" className={classes.invite} />
             친구 초대하기
           </div>
           <IoIosArrowForward size="27" color="#ACE2B5" />
         </li>
-        <li onClick={onClickAlert}>
+        <li onClick={onClickGuide}>
           <div className={classes.listTitle}>
-            <img
-              src={guide}
-              alt="guide이미지입니다."
-              className={classes.guide}
-            />
-            사용가이드
+            <img src={guide} alt="가이드 이미지" className={classes.guide} />
+            사용 가이드
           </div>
           <IoIosArrowForward size="27" color="#ACE2B5" />
         </li>
@@ -80,29 +84,29 @@ const MyList = () => {
           <div className={classes.listTitle}>
             <img
               src={announcement}
-              alt="announcement이미지입니다."
+              alt="공지 이미지"
               className={classes.announcement}
             />
             공지사항
           </div>
           <IoIosArrowForward size="27" color="#ACE2B5" />
         </li>
-        <li onClick={onClickAlert}>
+        <li onClick={onClickServiceGuide}>
           <div className={classes.listTitle}>
             <img
               src={service_guide}
-              alt="service_guide이미지입니다."
+              alt="서비스 가이드 이미지"
               className={classes.service_guide}
             />
             서비스 안내
           </div>
           <IoIosArrowForward size="27" color="#ACE2B5" />
         </li>
-        <li onClick={onClickQna}>
+        <li onClick={onClickFAQ}>
           <div className={classes.listTitle}>
             <img
               src={service_center}
-              alt="service_center이미지입니다."
+              alt="자주 묻는 질문 이미지"
               className={classes.service_center}
             />
             자주 묻는 질문

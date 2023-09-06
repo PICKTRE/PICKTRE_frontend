@@ -5,6 +5,7 @@ import classes from "./Qna.module.css";
 import { motion } from "framer-motion";
 import dummyData from "./dummy/qnaData.json";
 
+// 콘텐츠 애니메이션을 위한 변수와 설정
 const contentVariants = {
   hidden: {
     opacity: 0.3,
@@ -19,6 +20,7 @@ const Qna = () => {
   return (
     <>
       <div>
+        {/* 페이지 제목과 레이아웃 헤더 */}
         <HeaderLayout title="Qna" />
         <motion.main
           className={classes.main}
@@ -26,6 +28,7 @@ const Qna = () => {
           initial="hidden"
           animate="visible"
         >
+          {/* Q&A 섹션 */}
           <div className={classes.qnaSection}>
             <div className={classes.qnaMainText}>
               자주 묻는 질문
@@ -34,9 +37,11 @@ const Qna = () => {
               </div>
             </div>
 
+            {/* 아코디언 형태의 Q&A 목록 */}
             <AccordionList dummyData={dummyData} />
           </div>
         </motion.main>
+        {/* 공통 푸터 */}
         <Footer />
       </div>
     </>

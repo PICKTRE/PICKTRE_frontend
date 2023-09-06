@@ -7,16 +7,19 @@ import { BASE_URL } from "../../constants/url";
 import axios from "axios";
 
 // eslint-disable-next-line react/prop-types
-const StorePopular = ({ products, isLoading }) => {
+const StorePopular = ({ products }) => {
   const msrl = localStorage.getItem("memberId");
+
   // 각 상품에 대한 모달 상태 배열
   const [modalOpenStates, setModalOpenStates] = useState(
     // eslint-disable-next-line react/prop-types
     new Array(products.length).fill(false)
   );
+
   const [productId, setProductId] = useState(0);
   const [userName, setUserName] = useState("");
   const [rewardPoint, setRewardPoint] = useState(0);
+
   // 모달 열기/닫기 함수
   const toggleModal = (index) => {
     // eslint-disable-next-line react/prop-types
@@ -25,6 +28,8 @@ const StorePopular = ({ products, isLoading }) => {
     updatedStates[index] = !updatedStates[index];
     setModalOpenStates(updatedStates);
   };
+
+  // 상품 주문 함수
   const orderGoods = () => {
     axios
       .post(`${BASE_URL}/orders`, {
@@ -42,6 +47,7 @@ const StorePopular = ({ products, isLoading }) => {
         console.error("API 요청 실패:", error);
       });
   };
+
   useEffect(() => {
     axios
       .get(`${BASE_URL}/members/${msrl}`) // GET 요청 보내기
