@@ -14,6 +14,7 @@ const Store = () => {
   const [otherProducts, setOtherProducts] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
+  // 페이지 전환 애니메이션 효과 정의
   const contentVariants = {
     hidden: {
       opacity: 0.3,
@@ -24,12 +25,14 @@ const Store = () => {
     },
   };
 
+  // 데이터를 가져오는 함수 정의
   const fetchData = useCallback(() => {
     axios
       .get(`${BASE_URL}/products`)
       .then((response) => {
         // 모든 products를 가져옴
         const allProducts = response.data.list;
+
         // viewCount가 많은 상위 3개만 추출해 popularProducts에 저장
         const sortedProducts = allProducts.sort(
           (a, b) => b.viewCount - a.viewCount
@@ -40,13 +43,15 @@ const Store = () => {
         setOtherProducts(sortedProducts.slice(3, sortedProducts.length));
       })
       .catch((error) => {
+        // API 요청이 실패한 경우 에러를 콘솔에 기록합니다.
         console.error("API 요청 실패:", error);
       })
       .finally(() => {
-        setIsLoading(false); // Set loading to false after fetching
+        setIsLoading(false); // 데이터 로딩 완료 후 isLoading을 false로 설정
       });
   }, []);
 
+  // 데이터를 가져오는 효과 함수를 실행
   useEffect(() => {
     fetchData();
   }, [fetchData]);
@@ -64,11 +69,13 @@ const Store = () => {
           <StoreSearching />
         </section>
         <section className={classes.popularSection}>
+          {/* popularProducts 데이터가 있을 때만 StorePopular 컴포넌트 렌더링 */}
           {popularProducts.length > 0 && (
             <StorePopular products={popularProducts} isLoading={isLoading} />
           )}
         </section>
         <section className={classes.otherSection}>
+          {/* otherProducts 데이터가 있을 때만 StoreOther 컴포넌트 렌더링 */}
           {otherProducts.length > 0 && (
             <StoreOther products={otherProducts} isLoading={isLoading} />
           )}
