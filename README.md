@@ -28,6 +28,10 @@
 ### 웹서버 아키텍처
  ![리드미 웹서버](https://github.com/PICKTRE/PICKTRE_frontend/assets/48755156/47efa206-c475-4069-9753-705e64cafbb2)
 
+### 유저 플로우
+
+ <img src=./README_Img/유저플로우.png alt="executeShot0" width="1000">
+
 ### 소스 디렉토리
 ```
 |   App.css
@@ -265,20 +269,20 @@ https://picktre.netlify.app
 ## 프로젝트 페이지 
 
 <p align="center">
-  <img src=./readmeImg/메인홈페이지.png alt="executeShot1" width="150">
-  <img src=./readmeImg/마이페이지.png alt="executeShot2" width="150"/>
-  <img src=./readmeImg/지도.png alt="executeShot3" width="150">
-  <img src=./readmeImg/포인트.png alt="executeShot4" width="150">
-  <img src=./readmeImg/QR_코드_리더기_페이지.png alt="executeShot5" width="150">
-  <img src=./readmeImg/쓰레기_인식_카메라_페이지.png alt="executeShot6" width="150">
-  <img src=./readmeImg/랭킹.png alt="executeShot7" width="150">
-  <img src=./readmeImg/스토어.png alt="executeShot8" width="150">
-  <img src=./readmeImg/등급별_혜택안내.png alt="executeShot9" width="150">
-  <img src=./readmeImg/이용리포트.png alt="executeShot10" width="150">
-  <img src=./readmeImg/친구_초대하기.png alt="executeShot11" width="150">
-  <img src=./readmeImg/공지사항.png alt="executeShot12" width="150">
-  <img src=./readmeImg/자주_묻는_질문.png alt="executeShot13" width="150">
-  <img src=./readmeImg/설정.png alt="executeShot13" width="150">
+  <img src=./README_Img/메인홈페이지.png alt="executeShot1" width="150">
+  <img src=./README_Img/마이페이지.png alt="executeShot2" width="150"/>
+  <img src=./README_Img/지도.png alt="executeShot3" width="150">
+  <img src=./README_Img/포인트.png alt="executeShot4" width="150">
+  <img src=./README_Img/QR_코드_리더기_페이지.png alt="executeShot5" width="150">
+  <img src=./README_Img/쓰레기_인식_카메라_페이지.png alt="executeShot6" width="150">
+  <img src=./README_Img/랭킹.png alt="executeShot7" width="150">
+  <img src=./README_Img/스토어.png alt="executeShot8" width="150">
+  <img src=./README_Img/등급별_혜택안내.png alt="executeShot9" width="150">
+  <img src=./README_Img/이용리포트.png alt="executeShot10" width="150">
+  <img src=./README_Img/친구_초대하기.png alt="executeShot11" width="150">
+  <img src=./README_Img/공지사항.png alt="executeShot12" width="150">
+  <img src=./README_Img/자주_묻는_질문.png alt="executeShot13" width="150">
+  <img src=./README_Img/설정.png alt="executeShot13" width="150">
 </p>
 
 ---
