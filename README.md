@@ -18,7 +18,7 @@
 
 <div align="center">
  
-  [![Video Label](http://img.youtube.com/vi/6T34HNa5KHw/0.jpg)](https://www.youtube.com/embed/6T34HNa5KHw?autoplay=1)
+  [![Video Label](http://img.youtube.com/vi/oAazfTpKpKI/0.jpg)](https://www.youtube.com/embed/oAazfTpKpKI?autoplay=1)
 </div>
 
 ---
