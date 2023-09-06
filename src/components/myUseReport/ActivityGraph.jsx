@@ -5,6 +5,7 @@ import { useState } from "react";
 const ActivityGraph = () => {
   const [selectedView, setSelectedView] = useState("월별");
 
+  // 그래프 데이터 설정
   const data =
     selectedView === "월별"
       ? [
@@ -24,12 +25,14 @@ const ActivityGraph = () => {
           { x: "이번주", y: 14, label: "14" },
         ];
 
+  // 뷰 변경 함수
   const toggleView = (view) => {
     setSelectedView(view);
   };
 
   return (
     <div className={classes.activityGraph}>
+      {/* 월별/주별 선택 메뉴 */}
       <ul className={classes.selectTitle}>
         <li
           className={`${classes.Month} ${
@@ -48,6 +51,7 @@ const ActivityGraph = () => {
           주별
         </li>
       </ul>
+      {/* 그래프 및 레이블 */}
       <div className={classes.victoryChart}>
         <VictoryBar
           width={830}
@@ -73,6 +77,7 @@ const ActivityGraph = () => {
             />
           }
         />
+        {/* 그래프 하단 레이블 */}
         <ul className={classes.list}>
           {data.map((item) => (
             <li
