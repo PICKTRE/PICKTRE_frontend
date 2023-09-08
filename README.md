@@ -285,11 +285,15 @@ https://picktre.netlify.app
   <img src=./README_Img/설정.png alt="executeShot13" width="150">
 </p>
 
-### 프로젝트 스캔 QR 코드
+### 프로젝트 QR 코드 스캐너 페이지 내 QR 코드
 
 <p >
   <img src=./README_Img/QR_plastic.png alt="executeShots1" width="150">
   <img src=./README_Img/QR_ewaste.png alt="executeShots1" width="150">
+  <img src=./README_Img/QR_glass.png alt="executeShots1" width="150">
+  <img src=./README_Img/QR_metal.png alt="executeShots1" width="150">
+  <img src=./README_Img/QR_paper.png alt="executeShots1" width="150">
+  <img src=./README_Img/QR_medical.png alt="executeShots1" width="150">
 </p>
 
 ---
