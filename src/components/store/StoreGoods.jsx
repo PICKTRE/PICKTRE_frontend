@@ -1,10 +1,13 @@
 import classes from "./StoreGoods.module.css";
 
-// eslint-disable-next-line react/prop-types
-const StoreGoods = ({ props }) => {
-  // eslint-disable-next-line react/prop-types
-  const { isRank, productRank, imagePath, productName, price, isLoading } =
-    props;
+const StoreGoods = ({
+  isRank,
+  productRank,
+  imagePath,
+  productName,
+  price,
+  isLoading,
+}) => {
   return (
     <>
       <div className={classes.cardComponentWrapper}>

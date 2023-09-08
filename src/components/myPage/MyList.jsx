@@ -43,8 +43,8 @@ const MyList = () => {
   };
 
   // 자주 묻는 질문 버튼 클릭 시 이벤트 핸들러
-  const onClickFAQ = () => {
-    navigate("/faq");
+  const onClickQna = () => {
+    navigate("/qna");
   };
 
   return (
@@ -102,7 +102,7 @@ const MyList = () => {
           </div>
           <IoIosArrowForward size="27" color="#ACE2B5" />
         </li>
-        <li onClick={onClickFAQ}>
+        <li onClick={onClickQna}>
           <div className={classes.listTitle}>
             <img
               src={service_center}
